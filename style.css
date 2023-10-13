@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    border: 2px solid lightsalmon;
+    padding: 10px;
+    margin: 10px auto;
+    width: 800px;
+    border-radius: 24px;
+}
+.card-heading{
+    position: relative;
+}
+.img-card{
+    width: 100%;
+    border-radius: 14px;
+}
+.subheading{
+    position: absolute;
+    bottom: 0;
+    background-color: darkorange;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+.promoted{
+    position: absolute;
+    top: 0;
+    background-color: rgb(255, 250, 237);
+    color: rgb(62, 44, 0);
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 14px;
+    margin: 10px;
+}
+.subheading1{
+    position: absolute;
+    bottom: 10px;
+    background-color: white;
+    color: rgb(85, 49, 0);
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 20px;
+    margin-left: 90%;
+    font-weight: bold;
+}
+
+.checked {
+    color: green;
+  }
+  .box1{
+    width: 14%;
+    background-color: lightseagreen;
+    border-radius: 6px;
+  }
+  .box1 span{
+    font-size: 24px;
+    color: white;
+    background-color: goldenrod;
+    margin-left: 3%;
+    border-radius: 8px;
+  }
+  .box1 p{
+    font-size: 25px;
+    color: black;
+    margin-top: -1px;
+    margin-left: 3px;
+  }
+  .box-subtext{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: -6%;
+  }
+
+  /* second image section*/
+  .bg-head{
+    border: 2px solid lightsalmon;
+    padding: 10px;
+    margin: 10px auto;
+    width: 800px;
+    border-radius: 24px;
+    position: relative;
+  }
+  .bg-img{
+    width: 100%;
+    border-radius: 14px;
+  }
+  .main-content{
+    position: absolute;
+    bottom: 30px;
+    left: 186px;
+    color: white;
+  }
+  .btn1{
+    background-color: #fff;
+    padding: 14px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 30%;
+  }
+
+  /* zomoto image section */
+  .dropdown{
+    height: 200px;
+  }
+  select{
+    font-size: 22px;
+  }
+  #restselect{
+    font-size: 22px;
+  }
+  .zom-content{
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+  }
+
+  /* profile Section */
+  .profile-section{
+    position: relative;
+    width: 800px;
+    margin: 20px auto;
+    border: 2px solid lightsalmon;
+}
+.profile-bg{
+    width: 100%;
+}
+.user{
+   position: absolute;
+    bottom: 0;
+    margin-bottom: 73px;
+    height: 165px;
+    border-radius: 18%;
+    left: 285px;
+    border: 2px solid white;
+}
+.pro-head{
+  margin-left: 30%;
+  margin-bottom: -3%;
+}
+.pro-head2{
+    margin-left: 42%;
+    font-size: 20px;
+}
